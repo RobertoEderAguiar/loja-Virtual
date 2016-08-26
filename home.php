@@ -11,7 +11,7 @@ and open the template in the editor.
     </head>
     <body>
         
-        <h1>Home</h1>
+        <h1>Home - Pagina Principal</h1>
         <?php
         // put your code here
         ?>

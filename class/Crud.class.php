@@ -12,7 +12,7 @@
  * 
  * @author Roberto Eder
  */
-
+function __autoload($class){require_once"{$class}.class.php";}
 
 class Crud extends ConDB {
   

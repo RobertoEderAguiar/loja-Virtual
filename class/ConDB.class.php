@@ -6,7 +6,7 @@
  */
 
 // o autoload serve para chamada das classes na pasta classe.
-function __autoload($class){require_once"{$class}.class.php";}
+
 
 class ConDB {
     
@@ -26,7 +26,7 @@ class ConDB {
     
     
     }
- $crud = new Crud;
+ //$crud = new Crud;
 
  /*$insert = crud->insert('usuario', 'login=?, senha=?, email=?',
          array('Edmundo','123456789', 'edmundo@gmail.com'));*/

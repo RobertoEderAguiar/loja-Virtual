@@ -4,9 +4,13 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/wamp/www/lojaVirtual/login.php</file>
-            <file>file:/C:/wamp/www/lojaVirtual/estilo/login.css</file>
-            <file>file:/C:/wamp/www/lojaVirtual/js/login.js</file>
-            <file>file:/C:/wamp/www/lojaVirtual/jp/jpLogin.php</file>
+            <file>file:/C:/wamp/www/lojaVirtual/class/Crud.class.php</file>
+            <file>file:/C:/wamp/www/lojaVirtual/index.php</file>
+            <file>file:/C:/wamp/www/lojaVirtual/.htaccess</file>
+            <file>file:/C:/wamp/www/lojaVirtual/home.php</file>
+            <file>file:/C:/wamp/www/lojaVirtual/404.php</file>
+            <file>file:/C:/wamp/www/lojaVirtual/config/config.php</file>
+            <file>file:/C:/wamp/www/lojaVirtual/class/ConDB.class.php</file>
         </group>
     </open-files>
 </project-private>
