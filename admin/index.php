@@ -5,4 +5,4 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-print "Achou, Hello word";
+print "Achou, Hello word. - Pagina admin/index.php";

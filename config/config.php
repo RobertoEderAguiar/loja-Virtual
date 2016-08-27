@@ -5,3 +5,5 @@ define('REDIRECT_QUERY_STRING',
 
 define('REDIRECT_URL',
         isset($_SERVER['REDIRECT_URL']) ? $_SERVER['REDIRECT_URL']: NULL);
+
+define('MINI', '/img/miniatura.php');

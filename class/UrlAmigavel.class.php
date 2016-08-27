@@ -27,6 +27,9 @@ class UrlAmigavel {
             } else
             if (file_exists($this->r_URL[0] . '.php')) {
                 return $this->r_URL[0] . '.php';
+            } else
+            if (file_exists('admin/' . $this->r_URL[1].'.php')) {
+                return  'admin/'.$this->r_URL[1] . '.php';
             } else {
                 return '404.php';
             }
