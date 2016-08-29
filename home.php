@@ -4,12 +4,12 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
-<html>
+<html lang="pt-br">
     <head>
-        <meta charset="windows-1252">
-    <xml version="1.0" encoding="ISO-8859-1" />
+        <meta charset="UTF-8">
+    
     <title>Pagina Principal- Loja Virtual</title>
-    <link type="text/css" rel="stylesheet" href="estilo/login.css" />
+    <link type="text/css" rel="stylesheet" href="estilo/home.css" />
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/login.js"></script>
 
@@ -17,22 +17,22 @@ and open the template in the editor.
 <body>
     <header>
         <div>
-            <ul>
-                <li><a href="#"><img src="img/mini/miniatura.php?src=img/caminhao.png&w=14&h=10$q=100"> Frete Gratis</a></li>
+            <ul >
+                <li ><a href="#"><img src="img/mini/miniatura.php?src=img/caminhao.png&w=14&h=10$q=100"> Frete Gratis</a></li>
                 <li><a href="#"><img src="img/telAtendimento.png" width="14" height="10"> Central de Atendimento</a></li>
-                <li><a href="#"><img src="img/devolucao.png" width="14" height="10"> Saiba sobre as regras de devolução</a></li>
+                <li><a href="#"><img src="img/devolucao.png" width="14" height="10"> Saiba sobre as regras de devoluÃ§Ã£o</a></li>
             </ul> 
 
         </div>
 
         <div>   
             <figure>
-                <a href=""><img src="img/logo-desenvolvendophp.png" width="201"></a>
+                <a href="/"><img src="img/logo-desenvolvendophp.png" width="201"></a>
             </figure>
 
             <form>
-                <input type="search" class="" />
-                <button class="" >Buscar</button>
+                <input type="search" class="inputButton input" />
+                <button class="inputButton button" >Buscar</button>
             </form>
             <section>
                 <figure><img src="img/carrinho.png" width="30" title="Meu Carrinho">
@@ -46,7 +46,7 @@ and open the template in the editor.
                 <ul>
                     <li><a href="#">Oferta do dia</a></li>
                     <?php
-                    $itemMenu = array('Massa Muscular', 'Proteinas', 'Vitaminas', 'Energia', 'Acessórios', 'Massa Muscular');
+                    $itemMenu = array('Massa Muscular', 'Proteinas', 'Vitaminas', 'Energia', 'AcessÃ³rios', 'Massa Muscular');
                     for ($i = 0; $i < Count($itemMenu); $i++) {
                         ?>
                         <li>
@@ -55,13 +55,13 @@ and open the template in the editor.
                                 <figure>
                                     <img src="img/ZMA.jpg" width="50">
                                     <figcaption>
-                                        <p>ZMA - Cápsula - Optimus Nutrition</p>
+                                        <p>ZMA - CÃ¡psula - Optimus Nutrition</p>
                                         <span>
                                             <?php
-                                            $desc = 'O ZMA deriva da combinação do zinco com magnésio e vitamina B6. Este suplemento alimentar natural 
-                                                aumenta os níveis anabólicos, gera força, resistência e massa muscular. Com uma fórmula projetada e
+                                            $desc = 'O ZMA deriva da combinaÃ§Ã£o do zinco com magnÃ©sio e vitamina B6. Este suplemento alimentar natural 
+                                                aumenta os nÃ­veis anabÃ³licos, gera forÃ§a, resistÃªncia e massa muscular. Com uma fÃ³rmula projetada e
                                                 patenteada, ele apresenta quantidade e formas muito precisas e selecionadas de Aspartato de Monometionina 
-                                                de Zinco, Aspartato de Magnésio e vitamina B6.';
+                                                de Zinco, Aspartato de MagnÃ©sio e vitamina B6.';
                                             print substr($desc, 0, 276).'...';
                                             ?>
                                         </span>
@@ -70,8 +70,8 @@ and open the template in the editor.
 
                                 </figure>
                                 <li><a href="">BCAA</a></li>
-                                <li><a href="">Pré-Hormonais</a></li>
-                                <li><a href="">Pré-Treino</a></li>
+                                <li><a href="">PrÃ©-Hormonais</a></li>
+                                <li><a href="">PrÃ©-Treino</a></li>
                                 <li><a href="">ZMA</a></li>
                                 <li><a href="">Packs</a></li>
                             </ul>
